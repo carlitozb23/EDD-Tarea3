@@ -159,7 +159,7 @@ void registro_cuentas::redimensionar(int n) // Nos fijaremos que si la tabla es 
     if (factor_de_carga >= 0.6)
     {
         int n_ranueras = ranuras * 2;
-        cuenta *n_tabla = new cuenta[n_ranueras]; // POR TERMINAR
+        cuenta *n_tabla = new cuenta[n_ranueras]; // POR TERMINAR aaa
         for (int i = 0; i < ranuras; i++)
         {
         }
